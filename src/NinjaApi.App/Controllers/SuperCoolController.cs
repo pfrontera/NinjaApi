@@ -1,5 +1,5 @@
 ﻿using System;
-using NinjaApi.Services;
+using NinjaApi.Core.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace NinjaApi.Controllers

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NinjaApi.Services
+namespace NinjaApi.Core.Services
 {
     public class ChildService : IChildService
     {

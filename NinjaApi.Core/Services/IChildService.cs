@@ -1,4 +1,4 @@
-﻿namespace NinjaApi.Services
+﻿namespace NinjaApi.Core.Services
 {
     public interface IChildService
     {

@@ -1,7 +1,7 @@
-﻿using NinjaApi.Services;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using NinjaApi.Core.Services;
 
 namespace NinjaApi
 {
@@ -12,6 +12,7 @@ namespace NinjaApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IChildService, ChildService>();
+            services.AddSingleton<IClanService, ClanService>();
             services.AddMvc();
         }
 
