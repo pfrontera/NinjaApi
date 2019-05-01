@@ -2,13 +2,11 @@
 # Visual Studio 15
 VisualStudioVersion = 15.0.26711.1
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F9FB3B3A-DEAC-4669-B3FC-8CAD21B2F4EB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinjaApi", "src\NinjaApi\NinjaApi.csproj", "{42CB8118-F199-4595-8B01-F8CD3E6B9A1F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D03EE15C-6688-44BB-8963-7FF7C8FBE276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinjaApi.App", "src\NinjaApi.App\NinjaApi.App.csproj", "{42CB8118-F199-4595-8B01-F8CD3E6B9A1F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaApi.Tests", "NinjaApi.Tests\NinjaApi.Tests.csproj", "{8E7EB4C9-90AF-44A0-8D07-AD1789D1608B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaApi.Core", "NinjaApi.Core\NinjaApi.Core.csproj", "{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,13 +42,23 @@ Global
 		{8E7EB4C9-90AF-44A0-8D07-AD1789D1608B}.Release|x64.Build.0 = Release|Any CPU
 		{8E7EB4C9-90AF-44A0-8D07-AD1789D1608B}.Release|x86.ActiveCfg = Release|Any CPU
 		{8E7EB4C9-90AF-44A0-8D07-AD1789D1608B}.Release|x86.Build.0 = Release|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Debug|x64.Build.0 = Debug|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Debug|x86.Build.0 = Debug|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Release|x64.ActiveCfg = Release|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Release|x64.Build.0 = Release|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Release|x86.ActiveCfg = Release|Any CPU
+		{F675CFBF-E1D7-4F8B-9B62-A59F7AD61C70}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{42CB8118-F199-4595-8B01-F8CD3E6B9A1F} = {F9FB3B3A-DEAC-4669-B3FC-8CAD21B2F4EB}
-		{8E7EB4C9-90AF-44A0-8D07-AD1789D1608B} = {D03EE15C-6688-44BB-8963-7FF7C8FBE276}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6DFC37BC-3AB0-4EE2-8850-D3A283E89435}
